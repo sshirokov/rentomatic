@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Rent-O-Matic</title>
+		<script type="text/javascript" src="js/prototype.js"></script>
+		<script type="text/javascript" src="js/scriptaculous.js"></script>
+		<script type="text/javascript" src="js/lowpro.js"></script>
+		<script type="text/javascript" src="js/rentomatic.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+	</head>
+	<body>
+		<div id="warning">&nbsp;</div>
+		<div id="prereqs">
+			<p><label for="people_count">Number of people:</label><input autocomplete="off" id="people_count" type="text" size="3" maxlength="2" /></p>
+			<p><label for="total_rent">Total rent: $</label><input autocomplete="off" id="total_rent" type="text" size="7" maxlength="7" /></p>
+		</div>
+		<div id="splits" style="display: none;">
+			<p>Here's the breakdown: (Check a box to modify payment)</p>
+			<div id="dynamic">&nbsp;</div>
+			<p id="total_payment_container">Total paid: $<span id="total_payment">&nbsp;</span>
+		</div>
+	</body>
+</html>
